@@ -1,0 +1,37 @@
+body{
+    background: rgb(255,200,100);
+}
+
+h1{
+    color: green;
+    text-align: center;
+    margin-right: 300px;
+    font-family: Comforter, sans-serif;
+}
+
+h2{
+    font-family: Comforter,sans-serif;
+    font-size: 20px;
+    color: rgb(78, 78, 207);
+    margin-top: -10px;
+}
+
+.box {
+    border: 2px solid rebeccapurple;
+    width: 350px;
+    margin-top: 20px;
+    margin-bottom: -15px;
+    background-color: lightcoral;
+}
+
+a:hover{
+    color: red;
+}
+
+.dishes{
+    font-family: Roboto,sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
