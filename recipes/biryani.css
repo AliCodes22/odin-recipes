@@ -1,0 +1,35 @@
+body{
+    background: rgb(191,102,63);
+}
+
+h1{
+    color: rgb(80,55,55);
+    text-align: center;
+    margin-right: 450px;
+    font-size: 50px;
+}
+
+.img{
+    border: 2px 
+    width: 290px;
+    margin-bottom: 40px;
+    position: relative;
+    right: 25px;
+    left: 190px;
+    
+}
+
+h2{
+    margin-bottom: 25px;
+    text-decoration: underline;
+    font-size: 30px;
+}
+
+p{
+    font-family: Rowdies, sans-serif;
+}
+
+h3{
+    font-family: Rowdies, sans-serif;
+}
+
