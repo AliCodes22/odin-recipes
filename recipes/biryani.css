@@ -1,33 +1,91 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
 body{
     background: rgb(191,102,63);
+    font-family:Rowdies, sans-serif;
+}
+
+
+header{
+    margin-bottom: 20px;
 }
 
 h1{
     color: rgb(80,55,55);
     text-align: center;
-    margin-right: 450px;
     font-size: 50px;
+    margin-bottom: 25px;
 }
 
 .img{
-    border: 2px 
-    width: 290px;
-    margin-bottom: 40px;
-    position: relative;
-    right: 25px;
-    left: 190px;
+    margin: 20px auto;
+    display: block;
     
 }
 
-h2{
-    margin-bottom: 25px;
-    text-decoration: underline;
-    font-size: 30px;
+.intro,.steps{
+    max-width: 720px;
+    margin: auto;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin-bottom: 10px;
 }
 
-p,
-h3{
-    font-family: Rowdies, sans-serif;
+.intro p{
+    color: #fff;
+}
+
+.intro h2{
+    margin-bottom: 10px;
+}
+
+h2{
+    text-decoration: underline;
+    font-size: 2em;
+}
+
+.ing{
+    border: 5px solid black;
+    border-radius: 10px;
+    box-shadow:0 0 2px 2px red;
+    max-width: 720px;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+.ing ul{
+    list-style: none;
+    font-size: 1.3em;
+    text-align: left;
+}
+
+.steps{
+    padding: 0 20px;
+}
+.steps ul{
+    list-style: none;
+    font-size: 1.3em;
+}
+
+.steps li{
+    margin-bottom: 5px;
+}
+
+.ing,.steps h3{
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.ing li{
+    margin-bottom: 2px;
+}
+
+a:hover{
+    color: #fff;
 }
 
 
